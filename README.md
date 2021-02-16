@@ -8,8 +8,8 @@
 
 ## List
 1. First item
-   1. Sub-first item
+   - Sub-first item
 2. Second item
-   2. Sub-second item
+   - Sub-second item
 3. Third item
-   3. Sub-third item
+   - Sub-third item
