@@ -23,7 +23,7 @@ Cell nr. 2.1 | Cell nr. 2.2
 ## Link
 I built this by using [Github site]:(https://www.github.com/).
 
-## VHDL Source code test
+## VHDL Source code test example
 ```VHDL
 ------------------------------------------------------------------------
 -- Architecture body for basic gates
