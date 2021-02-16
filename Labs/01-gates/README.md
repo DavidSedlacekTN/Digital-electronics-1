@@ -11,7 +11,7 @@
 | 1 | 1 | 1 | 0 |
 
 # Image
-
+!(https://github.com/DavidSedlacekTN/Digital-electronics-1/blob/main/Labs/01-gates/Images/DeMorgansLaws.PNG)
 
 # VHDL code - data from *design.vhd* file
  
