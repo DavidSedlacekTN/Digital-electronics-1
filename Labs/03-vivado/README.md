@@ -44,7 +44,7 @@
 
 ## 2. Two-bit wide 4-to-1 multiplexer
 
-### VHDL architecture *(from (`mux_2bit_4to1.vhd`))*
+### VHDL architecture *from `mux_2bit_4to1.vhd`*
 
 ```VHDL
 ------------------------------------------------------------------------
@@ -60,7 +60,7 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process *(from (`tb_mux_2bit_4to1.vhd`))*
+### VHDL stimulus process *from `tb_mux_2bit_4to1.vhd`*
 
 ```VHDL
     --------------------------------------------------------------------
@@ -104,8 +104,9 @@ end architecture Behavioral;
 ## Vivado tutorial for basic operations
 
 | **Name of operation** | **Method** | **Comments** |
-| Project creation | Go to: *File/Project/New* → *Next* → Fill in: Project name, Directory → *Next* → Select: *RTL Project* →\n→ *Next* → Select Target language: *VHDL*, Select Simulator language: *VHDL*, Click: *Create file* →\n→ Select File type: *VHDL*, Fill in: Name → *OK* →\n→ *Next* → *(optional Constraints)* → *Next* → Go to *Boards* → Choose board →\n→ *Finish* → *OK*| - |
-| Adding more source files | In project go to: *File/Add Sources* → Choose: *Add or create design sources* → Click: *Create file* →\n→ Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
-| Adding testbench file | In project go to: *File/Add Sources* → Choose: *Add or create simulation sources* → Click: *Create file* →\n→ Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
+| :-: | :-: | :-: |
+| Project creation | Go to: *File/Project/New* → *Next* → Fill in: Project name, Directory → *Next* → Select: *RTL Project* →<br />→ *Next* → Select Target language: *VHDL*, Select Simulator language: *VHDL*, Click: *Create file* →<br />→ Select File type: *VHDL*, Fill in: Name → *OK* →<br />→ *Next* → *(optional Constraints)* → *Next* → Go to *Boards* → Choose board →<br />→ *Finish* → *OK*| - |
+| Adding more source files | In project go to: *File/Add Sources* → Choose: *Add or create design sources* → Click: *Create file* →<br />→ Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
+| Adding testbench file | In project go to: *File/Add Sources* → Choose: *Add or create simulation sources* → Click: *Create file* →<br />→ Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
 | Run simulation | In project go to: *Flow/Run Simulation/Run Behavioral Simulation* | Do not forget to change\n Radix to Binary form |
-| Adding XDC Constraints | In project go to: *File/Add Sources* → Choose: *Add or create constraints* → Click: *Create file* →\n→ Select File type: *XDC*, Fill in File name → *OK* → *Finnish*| [Click here](https://github.com/Digilent/digilent-xdc) for some referential XDCs |
+| Adding XDC Constraints | In project go to: *File/Add Sources* → Choose: *Add or create constraints* → Click: *Create file* →<br />→ Select File type: *XDC*, Fill in File name → *OK* → *Finnish*| [Click here](https://github.com/Digilent/digilent-xdc) for some referential XDCs |
