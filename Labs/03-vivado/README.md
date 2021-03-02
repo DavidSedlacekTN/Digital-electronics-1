@@ -105,7 +105,7 @@ end architecture Behavioral;
 
 | **Name of operation** | **Method** | **Comments** |
 | :-: | :-: | :-: |
-| Project creation | Go to: *File/Project/New* → *Next* → Fill in: Project name, Directory → *Next* → Select: *RTL Project* →<br />→ *Next* → Select Target language: *VHDL*, Select Simulator language: *VHDL*, Click: *Create file* →<br />→ Select File type: *VHDL*, Fill in: Name → *OK* →<br />→ *Next* → *(optional Constraints)* → *Next* → Go to *Boards* → Choose board →<br />→ *Finish* → *OK*| - |
+| Project creation | Go to: *File/Project/New* → *Next* → Fill in: Project name, Directory → *Next* → Select: *RTL Project* → *Next* → Select Target language: *VHDL*, Select Simulator language: *VHDL*, Click: *Create file* → Select File type: *VHDL*, Fill in: Name → *OK* → *Next* → *(optional Constraints)* → *Next* → Go to *Boards* → Choose board → *Finish* → *OK*| - |
 | Adding more source files | In project go to: *File/Add Sources* → Choose: *Add or create design sources* → Click: *Create file* → Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
 | Adding testbench file | In project go to: *File/Add Sources* → Choose: *Add or create simulation sources* → Click: *Create file* → Select File type: *VHDL*, Fill in File name → *OK* → *Finnish* → *OK* | - |
 | Run simulation | In project go to: *Flow/Run Simulation/Run Behavioral Simulation* | Do not forget to change\n Radix to Binary form |
