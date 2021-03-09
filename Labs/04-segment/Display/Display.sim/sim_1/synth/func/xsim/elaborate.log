@@ -1,0 +1,32 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f8809083f03946f6a32d779945ca4118 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_func_synth xil_defaultlib.top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000000000001")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111000000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000100010110")(0...]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000010010100")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010110001001000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010001000010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1100001000010100")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0101011100010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0101000110010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100000000100101")(0...]
+Compiling architecture structure of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture structure of entity xil_defaultlib.top
+Built simulation snapshot top_func_synth
