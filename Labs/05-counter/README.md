@@ -7,6 +7,7 @@
 | BTNU | M18 | 10 kΩ Resistor | 10 kΩ Resistor |
 | BTND | P18 | 10 kΩ Resistor | 10 kΩ Resistor |
 | BTNC | N17 | 10 kΩ Resistor | 10 kΩ Resistor |
+
 Buttons generate logic value of `'1'` when pressed.
 Buttons generate logic value of `'0'` when released.
 
