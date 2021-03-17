@@ -2,7 +2,7 @@
 
 ## Preparation tasks
 
-![Timing of seven-segment display](Images/wavedrom_7_Seg.png)
+![Timing of seven-segment display](Images/Wavedrom_7_Seg.png)
 
 <details><summary>PNG Code for later use</summary>
 <p>
