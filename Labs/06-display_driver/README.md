@@ -264,3 +264,5 @@ end Behavioral;
 ```
 
 ## 8-digit driver
+
+![8-digit driver](Images/Schematic.jpg)
