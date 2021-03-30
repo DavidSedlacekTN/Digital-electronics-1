@@ -27,6 +27,8 @@
    | 1 | 0 | 1 | Invert (Toggle) |
    | 1 | 1 | 0 | Invert (Toggle) |
 
+![Equations](Images/Equation.PNG)
+
 ## 2. D Latch
 
 ### VHDL code listing of the process `p_d_latch`
@@ -639,22 +641,8 @@
 
 ![T_FF_Waveforms](Images/Waveforms_T_FF_Rst.PNG)
 
-## Lab assignment
+## 4. Shift register
 
-1. Preparation tasks (done before the lab at home). Submit:
-    * Characteristic equations and completed tables for D, JK, T flip-flops.
+### Screenshot
 
-2. D latch. Submit:
-    * VHDL code listing of the process `p_d_latch` with syntax highlighting,
-    * Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts,
-    * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
-
-3. Flip-flops. Submit:
-    * VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting,
-    * Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts,
-    * Screenshot, with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
-
-4. Shift register. Submit:
-    * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
-
-*Prepare all parts of the assignment on a computer (not by hand), insert them in your README file `Digital-electronics-1/Labs/07-ffs/README.md`, export the formated output (not the listing in markdown language) from [HTML to PDF](https://github.com/tomas-fryza/Digital-electronics-1/wiki/Export-README-to-PDF), use [BUT e-learning](https://moodle.vutbr.cz/) web page and submit a single PDF file. The deadline for submitting the task is the day before the next laboratory exercise.*
+![Schematic](Images/Schematic.JPG)
